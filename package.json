@@ -1,0 +1,14 @@
+{
+  "name": "ai-output-scrubber",
+  "version": "1.0.0",
+  "description": "Paste raw AI responses (code fences, filler, markdown tables) and get clean JSON, CSV, Markdown, or plain text. Fully offline.",
+  "keywords": ["ai", "chatgpt", "claude", "code-fence", "markdown-table", "json", "csv", "clipboard"],
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "ai-output-scrubber": "bin/ai-output-scrubber.js"
+  },
+  "scripts": {
+    "test": "node --test 'test/**/*.test.js'"
+  }
+}
