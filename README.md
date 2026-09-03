@@ -91,3 +91,9 @@ npm test
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+**[Made by Varritech](https://varritech.com)**
+
+Varritech builds AI workforces that run your day-to-day. Learn more about Skillsmith and Scalewright at [varritech.com](https://varritech.com).

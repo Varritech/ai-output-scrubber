@@ -46,6 +46,15 @@
   .error { display: none; color: var(--err); margin-top: 10px; font-size: 13px; }
   footer { max-width: 1080px; margin: 0 auto; padding: 0 20px 30px; color: var(--muted); font-size: 13px; }
   kbd { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; font-size: 12px; }
+  .brand-footer { background: #07040D; border-top: 1px solid #1a1025; margin-top: 24px; }
+  .brand-footer .inner { max-width: 1080px; margin: 0 auto; padding: 28px 20px; text-align: center; }
+  .brand-footer a.made-by {
+    color: #80FF00; font-weight: 700; font-size: 15px; text-decoration: none; letter-spacing: .02em;
+  }
+  .brand-footer a.made-by:hover { text-decoration: underline; }
+  .brand-footer p.tagline { color: #b8adcc; font-size: 13px; margin: 8px 0 0; }
+  .brand-footer p.tagline a { color: #80FF00; text-decoration: none; }
+  .brand-footer p.tagline a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -83,6 +92,12 @@
 <footer>
   Handles fenced blocks (even unclosed ones), “Here is your …” preambles, “Let me know …” outros, markdown tables (tables ⇄ JSON ⇄ CSV), and already-clean input. Tip: press <kbd>⌘</kbd>/<kbd>Ctrl</kbd>+<kbd>Enter</kbd> inside the box.
 </footer>
+<div class="brand-footer">
+  <div class="inner">
+    <a class="made-by" href="https://varritech.com" target="_blank" rel="noopener">Made by Varritech</a>
+    <p class="tagline">Varritech builds AI workforces that run your day-to-day. Learn more about Skillsmith and Scalewright at <a href="https://varritech.com" target="_blank" rel="noopener">varritech.com</a>.</p>
+  </div>
+</div>
 <script>
 /* SCRUB-CORE-BEGIN */
 'use strict';
